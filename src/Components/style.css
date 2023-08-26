@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  background-color: #fff;
+  padding: 16px;
+  gap: 32px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 16px;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+@media (max-width: 400px) {
+  .card-container {
+    display: grid;
+    place-items: center;
+    width: 80%;
+
+  }
+}
